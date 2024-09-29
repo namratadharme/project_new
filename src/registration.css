@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(62, 62, 112);
+  box-shadow: 0.5px 0.5px 2px 2px lightblue;
+  background-color: #fafafa;
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+  margin: 5% 36%;
+  height: 60%;
+  gap: 10px;
+}
+
+.texttype {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 247px;
+  font-size: 19px;
+  font-weight: 50;
+}
+.texttype1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 216px;
+  font-size: 19px;
+  font-weight: 50;
+}
+.texttype2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 130px;
+  font-size: 19px;
+  font-weight: 50;
+}
+
+.heading {
+}
+
+.inputField {
+  display: flex;
+  align-self: center;
+  width: 60%;
+  padding: 9px;
+  border-radius: 8px;
+  opacity: 50%;
+}
+p {
+  color: red;
+}
+
+.button:enabled {
+  display: flex;
+  align-self: center;
+  width: 65%;
+  font-size: 22px;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 25px;
+  align-content: center;
+  background-color: rgb(61, 61, 131);
+  color: white;
+  cursor: pointer;
+}
+.button:disabled {
+  display: flex;
+  align-self: center;
+  width: 65%;
+  font-size: 22px;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 25px;
+  background-color: rgb(214, 222, 224);
+}
